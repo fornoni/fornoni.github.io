@@ -12,8 +12,8 @@
 	<title>Marco Fornoni &#187; mfornoni</title>
 	<atom:link href="http://localhost/wordpress/?feed=rss2&#038;author=1" rel="self" type="application/rss+xml" />
 	<link>http://localhost/wordpress</link>
-	<description>PhD student at EPFL. Research assistant at Idiap Research Institute</description>
-	<lastBuildDate>Wed, 26 Mar 2014 17:30:35 +0000</lastBuildDate>
+	<description>Computer Vision, Machine Learning, Software Engineering</description>
+	<lastBuildDate>Fri, 31 Oct 2014 17:16:48 +0000</lastBuildDate>
 	<language>en-US</language>
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
