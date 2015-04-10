@@ -608,7 +608,8 @@
 			}
 
 				.search-toggle {
-					display: inline-block;
+					/*display: inline-block;*/
+					display: none;
 					position: relative;
 					height: 1.75em;
 					line-height: 1.75;
