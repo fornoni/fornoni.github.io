@@ -50,8 +50,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <header id="masthead" class="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
 
-<nav id="site-navigation" class="main-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"><span class="screen-reader-text">Marco Fornoni site navigation</span><a class="skip-link screen-reader-text" href="index.html%3Fp=14.html#content">Skip to content</a><div class="main-navigation-inner"><div class="menu"><ul><li class="page_item page-item-5"><a href="index.html%3Ffeed=comments-rss2.html">Welcome</a></li><li class="page_item page-item-10"><a href="index.html%3Fp=10.html">Publications</a></li><li class="page_item page-item-14 current_page_item"><a href="index.html%3Fp=14.html">Code</a></li><li class="page_item page-item-12"><a href="index.html%3Fp=12.html">Activities</a></li><li class="page_item page-item-7"><a href="index.html%3Fp=7.html">Education</a></li></ul></div>
-<div id="nav-search-form" class="nav-search-form"><a href="index.html%3Fp=14.html#" id="search-toggle" class="search-toggle"><span class="screen-reader-text">Search</span></a>
+<nav id="site-navigation" class="main-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement"><span class="screen-reader-text">Marco Fornoni site navigation</span><a class="skip-link screen-reader-text" href="index.html%3Fp=14.html#content">Skip to content</a><div class="main-navigation-inner"><div class="menu"><ul><li id="menu-item-188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188"><a href="index.html%3Ffeed=comments-rss2.html">Welcome</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="index.html%3Fp=10.html">Publications</a></li>
+<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item menu-item-184 active-menu-item"><a href="index.html%3Fp=14.html">Code</a></li>
+<li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185"><a href="index.html%3Fp=12.html">Activities</a></li>
+<li id="menu-item-187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187"><a href="index.html%3Fp=7.html">Education</a></li>
+</ul></div><div id="nav-search-form" class="nav-search-form"><a href="index.html%3Fp=14.html#" id="search-toggle" class="search-toggle"><span class="screen-reader-text">Search</span></a>
 <form method="get" class="form-search" action="index.html%3Ffeed=comments-rss2.html">
 	<label for="search-field" class="screen-reader-text">Search</label>
 	<input type="search" value="" placeholder="Search field: type and press enter" name="s" class="search-field" id="search-field" />
@@ -92,17 +96,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <article id="post-14" class="post-14 page type-page status-publish hentry" itemscope itemtype="http://schema.org/WebPage">
 
-	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name">Code</h1></header><div class="entry-content" itemprop="description"><h2>ML3 &#8211; Multiclass Latent Locally Linear Support Vector Machine</h2>
+	<div class="entry-inner"><header class="entry-header"><h1 class="entry-title" itemprop="name">Code</h1></header><div class="entry-content" itemprop="description"><h2><a title="ML3 – Multiclass Latent Locally Linear Support Vector Machine" href="index.html%3Fp=189.html">ML3 &#8211; Multiclass Latent Locally Linear Support Vector Machine</a></h2>
 <p>A C++ implementation with a MATLAB <b>©</b> interface of the ML3 SVM classifier <a href="http://publications.idiap.ch/downloads/papers/2013/Fornoni_ACML2013_2013.pdf">(Fornoni et al., ACML 2013)</a>, an efficient non-linear classifier based on a latent SVM formulation.</p>
 <p align="center"><img class="alignnone wp-image-43 size-full" src="wp-content/uploads/2014/03/banana_st.png" alt="banana_st" width="360" height="261" /></p>
 <p>ML3 can learn complex decision functions (traditionally given by kernels) through the use of locally linear decision functions. Differently from kernel classifiers, ML3 makes use of a set of linear models that are locally linearly combined (for each sample and class) to form a non-linear decision boundary in the input space. Thanks to the latent formulation, the combination coefficients are modeled as latent variables and efficiently estimated using an analytic solution.</p>
 <h4><a href="http://localhost/wordpress/files/ML3_ex.tar.bz2">Quick download</a> | <a href="http://www.idiap.ch/scientific-research/resources/ml3" target="_blank">Official page</a> | <a href="https://github.com/idiap/ML3" target="_blank">Github</a></h4>
 <hr />
-<h2>MathematicaSVM &#8211; A hands-on introduction to Support Vector Machines using Mathematica ©</h2>
+<h2><a title="MathematicaSVM – A hands-on introduction to Support Vector Machines using Mathematica ©" href="index.html%3Fp=182.html">MathematicaSVM &#8211; A hands-on introduction to Support Vector Machines using Mathematica ©</a></h2>
 <p>This project presents the very basic theory of linear classifiers, max-margin classifiers and Support Vector Machines and explores the use of Mathematica © to solve the optimization problems that arise.</p>
 <p align="center"><img class="alignnone wp-image-156 size-full" src="wp-content/uploads/2014/03/MathematicaSVM.png" alt="MathematicaSVM" width="509" height="218" /></p>
 <p>Following the presentation in [1], we explicitly derive, implement and compare several classifiers, demonstrating them on synthetic 2D-data generated by the user, with visualizations involving direct hyper-parameters manipulations.<br />
-This project can thus be considered a hands-on introduction to the topic.</p>
+The project can be considered a hands-on introduction to the topic.</p>
 <p>[1] Nello Cristianini and John Shawe-Taylor. An introduction to Support Vector Machines and other kernel-based learning methods. Cambridge university press, 2000</p>
 <h4><a href="https://github.com/fornoni/MathematicaSVM/archive/master.zip">Quick download</a> | <a href="https://github.com/fornoni/MathematicaSVM" target="_blank">Github</a></h4>
 <hr />
